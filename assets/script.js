@@ -47,7 +47,7 @@ const dots = document.querySelectorAll('.dot');
 function updateSlide() {
 	const {image, tagLine } = slides[currentSlide];
 	bannerImg.src = image;
-	console.log(bannerImg.src);
+	//console.log(bannerImg.src);
 	bannerText.innerHTML = tagLine;
 
 	dots.forEach(dot => dot.classList.remove('dot_selected'));
